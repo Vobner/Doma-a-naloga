@@ -3,7 +3,7 @@ total_paint = int(input())
 paint_needed_per_badge = int(input())
 badge_price = int(input())
 
-if (total_paint <= 100 and total_paint <= 100) and (paint_needed_per_badge <= 100 and paint_needed_per_badge <= 100) and (badge_price <= 100 and badge_price <= 100):10
+if (total_paint <= 100 and total_paint <= 100) and (paint_needed_per_badge <= 100 and paint_needed_per_badge <= 100) and (badge_price <= 100 and badge_price <= 100):
 
     # Calculate the maximum number of gym badges
     num_badges = total_paint // paint_needed_per_badge
@@ -22,3 +22,5 @@ if (total_paint <= 100 and total_paint <= 100) and (paint_needed_per_badge <= 10
 
     # Output the result
     print(total_revenue)
+    
+#chatgpt

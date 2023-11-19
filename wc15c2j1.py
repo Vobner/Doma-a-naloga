@@ -1,5 +1,3 @@
-
-
 h1_sentence = "A long time ago in a galaxy "  
 h2_sentence = "far away"
 far = "far, "
