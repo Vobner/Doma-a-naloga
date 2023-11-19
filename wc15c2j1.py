@@ -5,5 +5,5 @@ far = "far, "
 
 number = int(input()) - 1
  
-if number > 0 and number < 5:
+if number >= 0 and number < 5:
     print(h1_sentence + far * number + h2_sentence)
