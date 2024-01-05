@@ -1,10 +1,10 @@
 class KavniAparat:
     def __init__(self):
-        self.stanje = 0  # Začetno stanje vplačil
+        self.stanje = 0  
 
     def vnos_denarja(self, znesek):
         if znesek in [10, 20, 50, 1, 2]:
-            self.stanje += znesek / 100  # Pretvorba v evre
+            self.stanje += znesek / 100  
             print(f"stanje: {self.stanje:.2f} EUR")
         else:
             print("Neveljaven znesek, vnos ignoriran.")
@@ -25,10 +25,10 @@ class KavniAparat:
         else:
             print("Neveljavna izbira, vnos ignoriran.")
 
-# Ustvarjanje instance kavnega avtomata
+
 avtomat = KavniAparat()
 
-# Primeri uporabe
+
 avtomat.vnos_denarja(50)
 avtomat.vnos_denarja(50)
 avtomat.vnos_denarja(50)
